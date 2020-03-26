@@ -636,7 +636,8 @@ input, select, textarea {
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			/* width: 100%; */
+			width: 50%;
 		}
 
 		.image img {
@@ -677,11 +678,15 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 2.5rem 0;
-			width: 100%;
+			/* width: 100%; */
+			width: 50%;
+			
 		}
 
 			.image.main img {
-				width: 100%;
+				/* width: 100%; */
+				height: 50%;
+				width: 50%;
 			}
 
 		@media screen and (max-width: 736px) {
